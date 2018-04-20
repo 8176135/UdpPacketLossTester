@@ -1,0 +1,15 @@
+[package]
+name = "udp_socket"
+version = "0.1.0"
+authors = ["Hand-of-Cthulhu <3rdhandofcthulhu@gmail.com>"]
+
+[[bin]]
+name = "reciever"
+path = "src/reciever/main.rs"
+
+[[bin]]
+name = "sender"
+path = "src/sender/main.rs"
+
+[dependencies]
+rand = "*"
